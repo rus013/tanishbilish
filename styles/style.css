@@ -9,9 +9,71 @@
     font-family: "Montserat", sans-serif;
 }
 
+.body {
+    background: #EFF5F5;
+}
+
 .container {
     max-width: 1344px;
+    width: 100%;
+    height: 100%;
     padding: 0 15px;
     margin: 0 auto;
+}
 
+.header {
+    padding: 15px 0;
+
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header__nav-list-item-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+
+.header__nav-list-item-link:hover {
+    color: #000;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 194px;
+    height: 38px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0px 13px 20px #0047B87D;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    color: #323232;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #323232;
+    color: #fff;
 }
